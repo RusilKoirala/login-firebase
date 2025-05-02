@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Main</title>
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+  <h1><span id="username">Loading...</span><br> <span id="element"></span></h1>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["How are you doing today?", 'Glad to see you here!',"Need a break? Or are you on a roll?"],
+      typeSpeed: 90,
+    });
+  </script>
+</body>
+</html>
